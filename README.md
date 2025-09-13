@@ -1,13 +1,15 @@
-  Computer Networks – Learning Repository
+# 🌐 Computer Networks – Learning Repository
 
-This repository documents my journey in learning **Computer Networks** through clear notes and practical exercises. It’s structured to help both me and anyone else understand the core concepts effectively.
+This repository contains my notes, explanations, and learning materials on **Computer Networks**.  
+The goal is to build strong fundamentals and keep a structured record of important topics for quick revision and future reference.
 
 ---
 
-##  Repository Structure
+## 📂 Repository Structure
 
 ```plaintext
 Computer-Network/
-├── Basics/       # Foundational notes and explanations
-├── framing/      # Focused section on framing techniques in data link layer
-└── README.md     # This overview file
+├── Basics/          # Foundational concepts and theory
+├── framing/         # Notes on framing and methods
+├── error-control/   # Error detection and correction techniques
+└── README.md        # Main overview file
