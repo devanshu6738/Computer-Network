@@ -31,16 +31,6 @@ Used to detect if errors occurred in transmission.
 
 ---
 
-### 2. **Error Correction**
-Used to not only detect but also correct errors.  
-- **Automatic Repeat Request (ARQ)** → If error detected, frame is retransmitted.  
-  - **Stop-and-Wait ARQ** – Send one frame, wait for ACK/NACK.  
-  - **Go-Back-N ARQ** – Multiple frames sent, retransmit from the error frame onwards.  
-  - **Selective Repeat ARQ** – Only the erroneous frame is retransmitted.  
-- **Forward Error Correction (FEC)** → Extra redundant bits allow receiver to correct errors without retransmission.  
-
----
-
 ## 📊 Summary Table
 
 | Technique            | Type             | Key Point |
@@ -48,11 +38,6 @@ Used to not only detect but also correct errors.
 | Parity Check         | Error Detection  | Detects single-bit errors only |
 | Checksum             | Error Detection  | Adds up data units for verification |
 | CRC                  | Error Detection  | Polynomial-based, very accurate |
-| Stop-and-Wait ARQ    | Error Correction | Simple, but inefficient |
-| Go-Back-N ARQ        | Error Correction | Retransmits from error frame onwards |
-| Selective Repeat ARQ | Error Correction | Only retransmits erroneous frame |
-| FEC                  | Error Correction | Corrects errors without retransmission |
-
 ---
 
 ## ✅ Key Point
